@@ -1,0 +1,8 @@
+<div>
+  <div class="title">{{piece?.name}}</div>
+  <div class="feature" *ngFor="let feature of piece?.features">
+    <app-feature [feature]="feature"></app-feature>
+  </div>
+</div>
+
+

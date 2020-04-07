@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Control</th>
+      <th>Dev</th>
+      <th>Dev Total Out</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let control of controls">
+      <td class="name">{{ control.name }}</td>
+      <td>{{ control.dev }}</td>
+      <td>{{ control.devTotal }}</td>
+      <td><app-state-icon [control]="control"></app-state-icon></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,24 @@
+.status-bar {
+    color: white;
+    display: flex;
+    align-items: center;
+    &.success {
+        background-color: green;
+    }
+    &.warning {
+        background-color: #ffc107;
+    }
+    &.error {
+        background-color: red;
+    }
+    h3 {
+        text-transform: uppercase;
+        flex-grow: 2;
+        text-align: center;
+    }
+    i {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        font-size: 22px;
+    }
+}
